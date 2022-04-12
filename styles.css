@@ -1,31 +1,44 @@
 body{
     margin: 0;
-    height: 100vh;
     display: flex;
-    justify-content: space-between;
-}
-.lBorder, .rBorder{
-    display: flex;
-    flex: 1;
-}
-.content {
-    display: flex;
-    flex: 3;
     flex-direction: column;
-    justify-content: space-between;
+    flex:1;
+ 
+    height: 100vh;
+}
+
+.lBorder, .rBorder{
+    flex:1;
 }
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    flex:3;
 }
 .header-links {
     display: flex;
     padding: 0;
     margin: 0;
     list-style-type: none;
+    gap:16px;
 }
-.main {
+.main1 {
     display: flex;
+    justify-content: space-between;
+}
+.text {
+    flex:3;
+}
+img {
+    height: 200px;
+    width: 400px;
+}
+.main2{
+    flex: 1;
 }
 .footer{
     display: flex;
